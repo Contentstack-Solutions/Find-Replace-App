@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/contentstack-expert-services/marketplace-app-template.git"
+    "url": "git+https://github.com/Contentstack-Solutions/Find-Replace-App"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/contentstack-expert-services/marketplace-app-template/issues"
+    "url": "https://github.com/Contentstack-Solutions/Find-Replace-App/issues"
   },
-  "homepage": "https://github.com/contentstack-expert-services/marketplace-app-template#readme",
+  "homepage": "https://github.com/Contentstack-Solutions/Find-Replace-App#readme",
   "devDependencies": {
     "husky": "^4.3.8",
     "prettier": "^2.4.1",
