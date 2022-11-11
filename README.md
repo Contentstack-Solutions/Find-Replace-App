@@ -45,6 +45,9 @@ npm run start
 
 ![Name App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt140198cd6fcbc7cd/636e09a6d8bead2f11377f00/Screenshot_2022-11-11_at_1.47.19_PM.png)
 
-- Then click on App "UI Locations" and add your App Url(Hosted Or localehost). then click on "Save" button.
-- Next step, in "Available location(s)", click on  "Stack Dashboard" and "+ Add", after that in the Path add /dashboard-widget and select Default Width as "Full Width".
+- Then click on App "UI Locations"(1) and add your App Url(2 Hosted Or localehost).then click on "Save" button(3), after that in "Available location(s)", click on  "Stack Dashboard" and "+ Add"(4). 
+
+![Setup App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt615e6d73962d2a98/636e09ba09737b2f10271b81/Screenshot_2022-11-11_at_1.51.16_PM.png)
+
+- Next step, after that in the Path add /dashboard-widget and select Default Width as "Full Width".
 - After that click on "Install App", Select Stack and click on "Install".
