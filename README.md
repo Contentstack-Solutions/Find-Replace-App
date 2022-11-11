@@ -29,6 +29,7 @@ npm i
  ```sh
 npm run start
 ```
+- Copy the localhost link for your App Url  http://localhost:8000 (for running the app locally)
 
 ####  Hosted app 
 
