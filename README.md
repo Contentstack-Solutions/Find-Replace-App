@@ -1,4 +1,8 @@
 # Find And Replace
+
+The Find And Replace Dashboard App allows you to search for any entry field and replace its value. Changing bulk entries is made easier with this application.
+
+
 ###  Prerequisites
 
 - Basic understanding of JavaScript
@@ -29,7 +33,7 @@ npm run start
 ####  Hosted app 
 
 - This can also be hosted on any platform of your choice.
-- https://find-replace-app.vercel.app/
+-  Here is the demo link for the app, which is hosted on Vercel : https://find-replace-app.vercel.app/
 
 #### Developer hub setup
 - Go to [developer hub](https://app.contentstack.com/#!/developerhub)
