@@ -62,7 +62,7 @@ npm run build
 
 - Then click on App "UI Locations"(1) and add your App Url(2 Hosted Or localehost).then click on "Save" button(3), after that in "Available location(s)", click on  "Stack Dashboard" and "+ Add"(4). 
 
-![Setup App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt615e6d73962d2a98/636e09ba09737b2f10271b81/Screenshot_2022-11-11_at_1.51.16_PM.png)
+![Setup App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt615e6d73962d2a98/636e4592bdef432fb152cd96/Screenshot_2022-11-11_at_6.20.10_PM.png)
 
 - Next step, after that in the Path add /dashboard-widget and select Default Width as "Full Width".
 
