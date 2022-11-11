@@ -50,4 +50,15 @@ npm run start
 ![Setup App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt615e6d73962d2a98/636e09ba09737b2f10271b81/Screenshot_2022-11-11_at_1.51.16_PM.png)
 
 - Next step, after that in the Path add /dashboard-widget and select Default Width as "Full Width".
+
+![Setup App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt9225848a028e16a0/636e0de6cb903f11376856a5/Screenshot_2022-11-11_at_1.59.32_PM.png)
+
 - After that click on "Install App", Select Stack and click on "Install".
+
+![install App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt5547f77ac975a695/636e09c80b5d2311678e6c1e/Screenshot_2022-11-11_at_2.01.53_PM.png) 
+
+![install App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt4f9daf26ab01d006/636e09d22e16be076e6e019a/Screenshot_2022-11-11_at_2.03.06_PM.png) 
+
+![Done](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt2cb47fab149101a9/636e09db9b6e5010c448f980/Screenshot_2022-11-11_at_2.04.32_PM.png) 
+
+
