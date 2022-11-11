@@ -36,8 +36,15 @@ npm run start
 -  Here is the demo link for the app, which is hosted on Vercel : https://find-replace-app.vercel.app/
 
 #### Developer hub setup
-- Go to [developer hub](https://app.contentstack.com/#!/developerhub)
-- Create a new app by clicking "+ New App" button at top right and Select Stack App. then provide a name for your app as "Find And Replace". 
+- Go to the [developer hub](https://app.contentstack.com/#!/developerhub)
+- Click the "+ New App" button at the top to create a new app.
+
+![New App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/bltf7d633091a4af5bf/636e099c7487894eca7dd0ae/Screenshot_2022-11-11_at_1.45.44_PM.png)
+
+- Next, select the Stack App. Then call your app "Find And Replace". 
+
+![Name App](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt140198cd6fcbc7cd/636e09a6d8bead2f11377f00/Screenshot_2022-11-11_at_1.47.19_PM.png)
+
 - Then click on App "UI Locations" and add your App Url(Hosted Or localehost). then click on "Save" button.
 - Next step, in "Available location(s)", click on  "Stack Dashboard" and "+ Add", after that in the Path add /dashboard-widget and select Default Width as "Full Width".
 - After that click on "Install App", Select Stack and click on "Install".
