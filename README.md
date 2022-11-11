@@ -1,6 +1,6 @@
 # Find And Replace
 
-The Find And Replace Dashboard App allows you to search for any entry field and replace its value. Changing bulk entries is made easier with this application.
+The Find And Replace Dashboard App allows you to search for any entry field and replace its values. Changing bulk entries is made easier with this application.
 
 
 ###  Prerequisites
