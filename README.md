@@ -61,4 +61,6 @@ npm run start
 
 ![Done](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt2cb47fab149101a9/636e09db9b6e5010c448f980/Screenshot_2022-11-11_at_2.04.32_PM.png) 
 
+### Please  Note 
 
+- As of now, we do not support json rte and assest replace.
