@@ -32,8 +32,22 @@ npm run start
 - Copy the localhost link for your App Url  http://localhost:8000 (for running the app locally)
 
 ####  Hosted app 
-
 - This can also be hosted on any platform of your choice.
+
+##### Create App Build 
+
+
+- Go to <APP_DIRECTORY>/ui directory in terminal and run following command.
+ ```sh
+npm run build
+```
+
+
+##### Host on vercel
+
+-  Here is the Vercel Doc for Hosting git repo https://vercel.com/docs/concepts/git/vercel-for-github
+-  In the vercel Select Root Directory /ui.
+![Vercel](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt8b5d824fef6cadfb/636e2447fde4123315e85ff6/Screenshot_2022-11-11_at_4.00.10_PM.png)
 -  Here is the demo link for the app, which is hosted on Vercel : https://find-replace-app.vercel.app/
 
 #### Developer hub setup
