@@ -78,4 +78,4 @@ npm run build
 
 ### Please  Note 
 
-- As of now, we do not support json rte and assest replace.
+- As of now, we do not support References, json rte and assest replace.
