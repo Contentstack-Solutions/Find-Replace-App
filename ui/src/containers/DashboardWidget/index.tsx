@@ -425,17 +425,18 @@ const DashboardWidget: React.FC = function () {
         updateLoading(true);
         const reslut = [];
         if (preViewTable?.length) {
-          for (let entryPos = 0; entryPos < preViewTable.length; entryPos++) {
-            const preview = preViewTable[entryPos];
-            const entry = entries.find((item: any) => item.uid === preview.uid)
+          // eslint-disable-next-line
+          for (let selectPos = 0; selectPos < selectedUids.length; selectPos++) {
+            const preview = preViewTable.find((item: any) => item.uid === selectedUids[selectPos]);
+            const entry = entries.find((item: any) => item.uid === preview.uid);
             if (preview?.uid === entry?.uid) {
               if (selectedUids.includes(entry?.uid)) {
                 utils.assetUidReplace({ entry });
-                let stringData = get(entry, preview?.fieldName)
+                let stringData = get(entry, preview?.fieldName);
                 let newReplace = replace;
                 switch (fieldValue?.type) {
                   case "number":
-                    newReplace = parseInt(newReplace);
+                    newReplace = parseInt(newReplace, 10);
                     set(entry, preview?.fieldName, newReplace);
                     break;
 
@@ -447,19 +448,24 @@ const DashboardWidget: React.FC = function () {
                   default:
                     if (fieldValue?.data?.display_type === "dropdown") {
                       if (fieldValue?.data?.multiple) {
-                        const findQuery = newReplace?.map((item: any) => item.value);
+                        const findQuery = newReplace?.map(
+                          (item: any) => item.value
+                        );
                         set(entry, preview?.fieldName, findQuery);
                       } else {
-                        const findQuery = newReplace?.value
+                        const findQuery = newReplace?.value;
                         set(entry, preview?.fieldName, findQuery);
                       }
                     } else {
+                      // eslint-disable-next-line
                       if (typeof stringData === "string") {
-                        const regex = new RegExp(inputValue, 'gi');
-                        const newInput: any = stringData.match(regex)
+                        const regex = new RegExp(inputValue, "gi");
+                        const newInput: any = stringData.match(regex);
                         if (newInput?.length) {
-                          // stringData = replaceLodash(stringData, newInput[0], newReplace);
-                          stringData = stringData.replaceAll(newInput[0], newReplace)
+                          stringData = stringData.replaceAll(
+                            newInput[0],
+                            newReplace
+                          );
                           set(entry, preview?.fieldName, stringData);
                         }
                       }
@@ -467,22 +473,23 @@ const DashboardWidget: React.FC = function () {
                     break;
                 }
                 try {
-                  let response = await stack
+                  // eslint-disable-next-line
+                  const response = await stack
                     .ContentType(contentTypeValue?.value)
                     .Entry(entry.uid)
                     .update({ entry }, localeValue?.value);
                   response.entry.notice = response.notice;
                   reslut.push(response?.entry);
                 } catch (err) {
-                  let message
+                  let message;
                   if (err instanceof Error) {
                     message = JSON.parse(err.message);
                     if (message?.status === 422) {
                       const res: any = entry;
                       res.notice = message?.data?.error_message;
-                      reslut.push(res)
+                      reslut.push(res);
                     } else {
-                      console.log(err)
+                      console.log(err);
                     }
                   }
                   console.log(err);
